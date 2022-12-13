@@ -1,0 +1,85 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  font-weight: normal;
+}
+
+input::-webkit-input-placeholder {
+  color: #9b9b9b;
+}
+
+input::-moz-placeholder {
+  color: #9b9b9b;
+}
+
+input:-ms-input-placeholder {
+  color: #9b9b9b;
+}
+
+input:-moz-placeholder {
+  color: #9b9b9b;
+}
+
+body {
+  color: #373a36;
+  min-width: 320px;
+  background: #fff;
+  font-family: OpenSans, sans-serif;
+}
+
+body.header__btn_active {
+  overflow: hidden;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex_center {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex_v-center {
+  align-items: center;
+}
+
+.flex_h-center {
+  justify-content: center;
+}
+
+.flex_between {
+  justify-content: space-between;
+}
+
+.logo {
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+  background: url("logo_mobile_pactice_simple.0073bfc4.png") center / contain no-repeat;
+  font-size: 0;
+  display: inline-block;
+}
+
+.logo:link:hover {
+  cursor: pointer;
+  opacity: .8;
+}
+
+@media (min-width: 1200px) {
+  .logo {
+    width: 49px;
+    height: 49px;
+  }
+}
+
+/*# sourceMappingURL=index.bbbecf78.css.map */
