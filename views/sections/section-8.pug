@@ -1,0 +1,13 @@
+#section-8.section-8
+    .container
+        .section-8__list
+            a.btn.btn_color_red.section-8__btn(href=section8.link.href)= section8.link.text
+            .section-8__box
+                ul.section-8__ul
+                    for item in section8.items
+                        li.section-8__li
+                            a.section-8__a(href=item.href)!= item.text
+                ul.section-8__ul.section-8__ul_size_l
+                    for item in section8.language
+                        li.section-8__li
+                            a.section-8__a(href=item.href)!= item.text

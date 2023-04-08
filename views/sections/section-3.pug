@@ -1,0 +1,11 @@
+section#section-3.section-3
+    .container
+        h2.section-3__title= section3.title
+        .section-3__list
+            for item in section3.items
+                article.section-3__item
+                    h3.section-3__name
+                        span.section-3__number #{item.number}
+                        span #{item.title}
+                    figure.section-3__figure
+                        img.section-3__img(src=item.image.src srcset=item.image.srcset alt=item.image.alt)

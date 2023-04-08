@@ -1,0 +1,8 @@
+section#section-7.section-7.text-center
+    .container
+        h2.section-7__title= section7.title
+        p.section-7__text= section7.text
+        .section-7__list
+            for item in section7.items
+                a.section-7__item(href=item.href)
+                    img.section-7__img(src=item.image.src alt=item.image.alt)

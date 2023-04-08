@@ -1,0 +1,12 @@
+section#section-5.section-5
+    .container
+        h2.section-5__title About us
+        .section-5__list
+            for item in section5.items
+                article.section-5__item
+                    figure.section-5__figure
+                        img.section-5__img(src=item.image.src alt=item.image.alt)
+                    h3.section-5__name= item.name
+                    .section-5__position= item.position
+                    .section-5__text!= item.text
+                    a.section-5__email(href='mailto:' + item.email tatget='blank')= item.email

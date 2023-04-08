@@ -1,0 +1,10 @@
+section#section-4.section-4
+    .container
+        h2.section-4__heading= section4.title
+        .section-4__list
+            for item in section4.items
+                article.section-4__item
+                    figure.section-4__figure
+                        img.section-4__img(src=item.image.src alt=item.image.alt)
+                    h3.section-4__title= item.title
+                    p.section-4__text!= item.text

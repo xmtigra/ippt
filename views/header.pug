@@ -1,0 +1,17 @@
+.header
+    .container
+        .flex.flex_between.flex_v-center
+            .flex-side
+                a.header__logo(href=link)= title
+            .flex-side
+                .header__btn
+                    span.header__btn_section
+                    span.header__btn_section
+                    span.header__btn_section
+                    span.header__btn_section
+                    span.header__btn_section
+                    span.header__btn_section
+                ul.header__nav
+                    for item in menu
+                        li.header__li
+                            a.header__a(href=item.href)= item.title
