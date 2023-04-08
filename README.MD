@@ -9,6 +9,14 @@ This is a project for the course.
 * [Firebase](https://firebase.google.com/)
 * [onrender](https://onrender.com/)
 * [scss](https://sass-lang.com/)
+* [pug](https://pugjs.org/api/getting-started.html)
+
+## Installation
+
+* Install [Node.js](https://nodejs.org/en/)
+* npm install
+* npm start
+
 
 ## Deployed
 
