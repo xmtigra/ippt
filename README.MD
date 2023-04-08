@@ -10,7 +10,6 @@ This is a project for the course.
 * [onrender](https://onrender.com/)
 * [scss](https://sass-lang.com/)
 
-
 ## Deployed
 
 * [https://ippt.onrender.com](https://ippt.onrender.com)
